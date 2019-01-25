@@ -102,8 +102,8 @@ ul {
 }
 
 .work {
-    max-width: 200px;
-    height: 200px;
+    max-width: 400px;
+    height: 300px;
     border: 1px solid black;
     display: inline-block;
     position: relative;
@@ -111,8 +111,7 @@ ul {
 
 span.work-description {
     position: absolute;
-    top: 145px;
-    left: 0;
+    bottom: 10px;
     width: 100%;
     background-color: gray;
     color: white;
