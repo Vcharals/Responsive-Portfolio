@@ -8,7 +8,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: grey;
+    background-image: url("https://wallpaperaccess.com/full/2110.jpg");
     margin-bottom: 60px;
 }
   
@@ -21,10 +21,11 @@ body {
 nav {
     display: flex;
     width: 100%;
-    border: 1px solid #dddddd;
+    /* border: 1px solid #dddddd; */
     justify-content: center;
     align-content: center;
-    background-color: #dddddd;
+    color: black;
+    background: rgb(230, 230, 230, 0.5);
 
 }
 
@@ -81,9 +82,11 @@ ul {
 
 
   .main-section {
-    border: 1px solid #dddddd;
+    /* border: 1px solid #dddddd; */
     margin: 30px;
-    background: #dddddd;
+    color: black;
+    background: rgb(230, 230, 230, 0.5);
+    /* opacity: 0.5; */
     padding: 30px;
   }
 
@@ -147,7 +150,8 @@ button.submit-button {
     /* Set the fixed height of the footer here */
     height: 60px;
     line-height: 60px; /* Vertically center the text there */
-    background-color: #dddddd;
+    color: black;
+    background: rgb(230, 230, 230, 0.5);
   }
   
   .footer > .container {
