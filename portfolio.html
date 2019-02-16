@@ -7,68 +7,90 @@
   <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
   <link rel="stylesheet" type="text/css" href="styles.css"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to bootstrap -->
+  <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+  integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+  crossorigin="anonymous"/>
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
 </head>
 
 <body>
+  <a id="logo" class='logo'>Vince Charals</a>
+  <br>
+  <nav>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Portfolio</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-    <nav>
-        <a href="javascript:void(0);" id="logo" class='logo'>Vince Charals</a>
-    
-        <div class="nav-links">
-          <ul>
-            <li><a href="./index.html">About</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-    
-          </ul>
-        </div>
-    
-    
-      </nav>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">About Me <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Professional Links
+    </a>
+    <div class="dropdown-menu" aria-labelledby="Professional Links">
+      <a class="dropdown-item" href="https://www.linkedin.com/in/vince-charals-86498698/">LinkedIn</a>
+      <a class="dropdown-item" href="https://github.com/Vcharals">Github</a>
+      <a class="dropdown-item" href="./2018resume.pdf">Resume</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html">Contact Me</a>
+  </li>
+</ul>
+    </nav>
 
   <div id="main-container" class="container">
     <section class="main-section portfolio">
-      <h1>Portfolio</h1>
         <!-- <h1>
               <img src="./images/portfolio.jpg" alt="" />
             </a>
           </h1> -->
 
       <div class="work">
-        <img src="./images/wordGuess.jpg" alt="Letter Guess" class="work-image">
+        <a href="https://github.com/Vcharals/Psychic-Game"> <img src="./images/wordGuess.jpg" alt="Psychic Game" class="work-image"></a>
 
         <!-- <span class="work-description">Letter Guess</span> -->
-        <a href="https://github.com/Vcharals/Psychic-Game"> <span class="work-description">Letter Guess</span></a>
+        <span class="work-description">Letter Guess</span>
       </div>
 
       <div class="work">
-        <img src="./images/train.jpg" alt="Train Scheduler" class="work-image">
+        <a href="https://github.com/Vcharals/Train-Scheduler"> <img src="./images/train.jpg" alt="Train Scheduler" class="work-image"></a>
         
-        <a href="https://github.com/Vcharals/Train-Scheduler"> <span class="work-description">Train Scheduler</span></a>
+        <span class="work-description">Train Scheduler</span>
 
       </div>
       <div class="work">
-        <img src="./images/trivia.jpg" alt="Trivia Game" class="work-image">
+        <a href="https://github.com/Vcharals/TriviaGame"> <img src="./images/trivia.jpg" alt="Trivia Game" class="work-image"></a>
 
-      <a href="https://github.com/Vcharals/TriviaGame"> <span class="work-description">Trivia Game</span></a>
+       <span class="work-description">Trivia Game</span>
       
     </div>
       <div class="work">
-        <img src="./images/BobsBurgers.jpg" alt="GifTastic" class="work-image">
+        <a href="https://github.com/Vcharals/GifTastic"> <img src="./images/BobsBurgers.jpg" alt="GifTastic" class="work-image"></a>
 
-        <a href="https://github.com/Vcharals/GifTastic"><span class="work-description">GifTastic</span>
+        <span class="work-description">GifTastic</span>
       </div>
       <div class="work">
-        <img src="./images/rps.jpg" alt="Rock Paper Scissors" class="work-image">
+        <a href="https://github.com/Vcharals/RockPaperScissors"> <img src="./images/rps.jpg" alt="Rock Paper Scissors" class="work-image"></a>
 
-        <a href="https://github.com/Vcharals/RockPaperScissors"> <span class="work-description">Rock Paper Scissors</span></a>
+       <span class="work-description2">Rock Paper Scissors</span>
       </div>
       <div class="work">
-          <img src="./images/mood.png" alt="MoodTube" class="work-image">
+        <a href="https://github.com/jdiliff/moodtube"> <img src="./images/mood2.png" alt="MoodTube" class="work-image"></a>
   
-          <a href="https://github.com/jdiliff/moodtube"> <span class="work-description">MoodTube</span></a>
+        <span class="work-description">MoodTube</span>
         </div>
     </section>
 
