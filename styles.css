@@ -15,7 +15,10 @@ body {
     line-height: 34px;
     color: white;
     background-image: url(./images/lion.jpg);
-    margin-bottom: 60px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
   
 * {
